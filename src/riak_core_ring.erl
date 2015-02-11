@@ -147,7 +147,7 @@
     vclock   :: vclock:vclock() | undefined, % for this chstate object, entries are
                                  % {Node, Ctr}
     chring   :: chash:chash(),   % chash ring of {IndexAsInt, Node} mappings
-    meta     :: dict() | undefined,  % dict of cluster-wide other data (primarily
+    meta     :: dict:dict() | undefined,  % dict of cluster-wide other data (primarily
                                  % bucket N-value, etc)
 
     clustername :: {term(), term()},
