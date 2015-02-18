@@ -30,7 +30,7 @@
           transport_mon         :: reference(),
           timestamp             :: tuple(),
           status                :: any(),
-          stats                 :: dict:dict(),
+          stats                 :: type:dict_t(),
           vnode_pid             :: pid() | undefined,
           vnode_mon             :: reference(),
           type                  :: ho_type(),

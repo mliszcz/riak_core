@@ -60,8 +60,8 @@
 -type repairs() :: [repair()].
 
 -record(state, {idxtab,
-                forwarding :: dict:dict(),
-                handoff :: dict:dict(),
+                forwarding :: type:dict_t(),
+                handoff :: type:dict_t(),
                 known_modules :: [term()],
                 never_started :: [{integer(), term()}],
                 vnode_start_tokens :: integer(),

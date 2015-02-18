@@ -138,7 +138,7 @@
           snapshot   :: ets:tab(),
 
           %% set of dirty leaves
-          dirty      :: gb_sets:set()
+          dirty      :: type:gb_set_t()
          }).
 
 -define(ROOT, '$ht_root').
